@@ -1,0 +1,173 @@
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2; 
+    background-image: url(../img/332.png);
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+
+.banner {
+    width: 80%;
+    margin: 20px auto; 
+    background-color: #fff; 
+    padding: 20px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+
+.banner img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
+}
+
+
+.banner-description {
+    text-align: center;
+    margin-top: 15px; 
+}
+
+
+.banner-description h2, .banner-description p {
+    margin: 8px 0;
+}
+
+
+.banner-actions {
+    text-align: center;
+    margin-top: 15px;
+}
+
+
+.banner-actions a {
+    text-decoration: none; 
+    margin: 5px;
+}
+
+.banner-actions button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.banner-actions button:hover {
+    background-color: #0056b3;
+}
+
+.shortcut-link {
+    text-align: center;
+    margin: 20px 0; 
+}
+
+.shortcut-link a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    margin: 5px; 
+    transition: background-color 0.3s;
+}
+
+.shortcut-link a:hover {
+    background-color: #0056b3;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo img {
+    height: 20px; 
+
+}
+
+
+.nav-links {
+    list-style: none;
+    display: flex;
+}
+
+.nav-links li {
+    margin-right: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #fff; 
+}
+
+
+.nav-links a:hover {
+    text-decoration: underline;
+}
+
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+header {
+    background-color: rgb(255, 255, 255); 
+    color: #fff;
+    padding: 10px 0;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img {
+    height: 100px; 
+}
+
+
+.datetime {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+}
+
+#date, #time {
+    font-size: 16px; 
+    margin: 5px 0;
+    color: blue;
+}
