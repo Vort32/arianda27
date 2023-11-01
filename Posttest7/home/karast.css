@@ -1,0 +1,35 @@
+Style for the uploaded image
+img {
+    max-width: 200%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Style for the character information */
+.character-info {
+    text-align: left;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-top: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Style for individual character information items */
+.character-info p {
+    margin: 5px 0;
+}
+
+/* Style for the uploaded image link */
+.uploaded-image a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+/* Style for the image link hover effect */
+.uploaded-image a:hover {
+    opacity: 0.8;
+}
